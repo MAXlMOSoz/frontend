@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Herosection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-indigo-700 to-purple-800">
+    <section className="relative overflow-hidden bg-gradient-to-br from-red-600 via-yellow-700 to-green-800">
       {/* Background Effect */}
       <div className="absolute inset-0 bg-black/20"></div>
 
@@ -12,25 +12,25 @@ export default function Herosection() {
           {/* Left Content */}
           <div className="text-center lg:text-left">
             <span className="inline-block rounded-full bg-white/20 px-4 py-2 text-sm text-white backdrop-blur">
-              🚀 Welcome to Our Website
+              🚀 ยินดีต้อนรับสู่ร้านของเรา
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-tight text-white md:text-6xl">
-              สร้างอนาคตด้วย
+              เติมเกมราคาดีเติมกับเรา
               <span className="block text-yellow-300">
-                เทคโนโลยีและนวัตกรรม
+                ถูกดีไม่มีบิดเติมเร็วทันใจปลอดภัยแน่นอน
               </span>
             </h1>
 
             <p className="mt-6 text-lg text-blue-100">
-              พัฒนาเว็บไซต์ แอปพลิเคชัน และระบบสารสนเทศ
-              ด้วยเทคโนโลยีสมัยใหม่ เพื่อยกระดับองค์กรของคุณ
+              เรามีบริการเติมเกมที่หลากหลายและรวดเร็ว พร้อมโปรโมชั่นพิเศษสำหรับสมาชิกใหม่และเก่า
+              เติมเกมของคุณได้อย่างง่ายดายและปลอดภัย
             </p>
 
             <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
               <Link
                 href="/about"
-                className="rounded-xl bg-white px-6 py-3 font-semibold text-blue-700 shadow-lg transition hover:scale-105"
+                className="rounded-xl bg-white px-6 py-3 font-semibold text-pink-700 shadow-lg transition hover:scale-105"
               >
                 เรียนรู้เพิ่มเติม
               </Link>

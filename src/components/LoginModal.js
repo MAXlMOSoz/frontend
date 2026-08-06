@@ -56,8 +56,8 @@ export default function LoginModal({ isOpen, onClose }) {
 
         {/* ส่วนหัว (Header & Logo) เปลี่ยนข้อความตามโหมด */}
         <div className="text-center mb-8 mt-2">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-500 text-white font-bold text-xl shadow-lg shadow-indigo-500/30 mb-4">
-            M
+          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-tr from-orange-600 to-indigo-500 text-white font-bold text-xl shadow-lg shadow-indigo-500/30 mb-4">
+            Ms
           </div>
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
             {isLoginMode ? 'ยินดีต้อนรับกลับมา' : 'สร้างบัญชีใหม่'}
@@ -142,7 +142,7 @@ export default function LoginModal({ isOpen, onClose }) {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full px-4 py-2.5 rounded-xl border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-colors"
-              placeholder="••••••••"
+              placeholder="อย่างน้อย 8 ตัวอักษร"
             />
           </div>
 

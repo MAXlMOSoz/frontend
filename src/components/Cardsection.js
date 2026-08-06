@@ -8,7 +8,7 @@ export default function Cardsection() {
         {/* หัวข้อ Section */}
         <div className="mb-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900">สินค้าแนะนำ</h2>
-          <p className="mt-2 text-gray-600">เลือกชมสินค้าที่น่าสนใจของเราในเดือนนี้</p>
+          <p className="mt-2 text-gray-600">เลือกแพ็คเกจสินค้าที่น่าสนใจของเราในวันนี้</p>
         </div>
 
         {/* ตะแกรง Grid แบบ 3 คอลัมน์ */}
@@ -58,7 +58,7 @@ export default function Cardsection() {
                 กล้องดิจิตอลความละเอียดสูง พร้อมเลนส์คิท 15-45mm
               </p>
               <div className="mt-4 flex items-center justify-between">
-                <span className="text-xl font-bold text-blue-600">฿25,900</span>
+                <span className="text-xl font-bold text-blue-600">฿25.900</span>
                 <button className="px-4 py-2 bg-black text-white text-sm font-medium rounded-md hover:bg-gray-800 transition-colors">
                   เพิ่มลงตะกร้า
                 </button>

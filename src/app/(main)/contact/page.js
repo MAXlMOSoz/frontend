@@ -4,7 +4,7 @@ export default function Contract() {
   return (
     <div>
       <h1><center>
-        Contract Page
+        Contract Page <br /> <br /> <br />
       </center></h1>
     </div>
   );
