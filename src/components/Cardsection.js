@@ -18,9 +18,10 @@ export default function Cardsection() {
           <div className="border rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 bg-white">
             <div className="relative w-full h-48 bg-gray-100">
               <Image
-                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80"
+                src="/image/ROV.PNG"
                 alt="หูฟังไร้สาย Noise Cancelling"
                 fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -44,9 +45,10 @@ export default function Cardsection() {
           <div className="border rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 bg-white">
             <div className="relative w-full h-48 bg-gray-100">
               <Image
-                src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500&q=80"
+                src="/image/FF.PNG"
                 alt="กล้อง Mirrorless 4K"
                 fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -70,9 +72,10 @@ export default function Cardsection() {
           <div className="border rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 bg-white">
             <div className="relative w-full h-48 bg-gray-100">
               <Image
-                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80"
+                src="/image/MLBB.PNG"
                 alt="นาฬิกาสมาร์ทวอทช์"
                 fill
+                sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover"
               />
             </div>

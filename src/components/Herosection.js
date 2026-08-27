@@ -50,7 +50,7 @@ export default function Herosection() {
               <div className="absolute inset-0 animate-pulse rounded-full bg-white/20 blur-3xl"></div>
 
               <img
-                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900"
+                src="/image/LOGO.PNG"
                 alt="Technology"
                 className="relative w-full max-w-lg rounded-3xl shadow-2xl"
               />

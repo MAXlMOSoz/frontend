@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import LoginModal from '@/components/LoginModal'
+import Image from 'next/image';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -49,8 +50,14 @@ export default function Navigation() {
               href="/"
               className="flex items-center gap-3 group"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-tr from-orange-600 to-indigo-500 text-white font-bold text-lg shadow-lg shadow-indigo-500/30 transition-transform group-hover:scale-105">
-                Ms
+              <div className="relative h-20 w-20 overflow-hidden rounded-2xl shadow-lg shadow-indigo-500/30 transition-transform group-hover:scale-105">
+              <Image
+                src="/image/LOGO.PNG"
+                alt="โลโก้ร้าน"
+                fill
+                sizes="100px"
+                className="object-contain p-1"
+              />
               </div>
 
               <div className="flex flex-col">

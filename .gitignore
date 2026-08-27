@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+data/
+wordpress/
+node_modules/
+.next/
+.env
+.env.local
+*.sock

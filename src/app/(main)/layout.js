@@ -9,8 +9,8 @@ const prompt = Prompt({
 });
 
 export const metadata = {
-  title: "ชายสี่หมี่เกี้ยว",
-  description: "ร้านก๋วยเตี๋ยวเมืองฮอด",
+  title: "MextShop",
+  description: "เกมดีพรี่มีขาย",
 };
 
 export default function RootLayout({ children }) {
